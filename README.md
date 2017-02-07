@@ -1,27 +1,18 @@
-# Week 04
+# week-04
 
 This repository contains files for:
-- commands-03
-  - drop.pdf - Stata documentation for the `drop` and `keep` commands
-  - label.pdf - Stata documentation for `label` suite of commands
-  - notes.pdf - Stata documentation for `notes` suite of commands
-  - week-04-stata-commands.pdf - Course documentation for all commands covered in Week 4
-  - week-04-stata-quickref.pdf - List all commands covered in Week 4
-- extra-04
-  - Homeless_Services.csv - original file that problem set 2 is based on
-  - ps2_create.do - do-file for constructing the problem set 2 data based on Homeless_Services.csv
-- lab-04
-  - lab04-handout.pdf - lab questions
-- lecture-04
-  - census80.dta - lecture dataset
-  - census80Old.dta - lecture dataset that can be opened in Stata 13
-  - do-file template.do - example template of a well documented and annotated do-file
-  - lecture04-code.do - Stata code for replicating lecture examples
-- LICENSE.md
-- README.md
+-   `ArcGIS/` - documentation for week's ArcGIS operations
+-   `Atom/` - atom quick reference guide
+-   `Lab/` - lab instructions
+-   `Markdown/` - markdown references
+-   `SetUp/` - guide for getting a new computer up and running
+-   `Slides/` - lecture slides
+-   `.gitignore`
+-   `LICENSE.md`
+-   `README.md`
 
-### About SOC 4650/5650
-This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc). The course focuses on social, economic, and health data - all key topics for social science researchers. We also focus on skills needed to work with “big” data - data that are too numerous or complex to be cleaned manually. While the examples may be specific to the social sciences, the theories and skills that are covered are broadly applicable across the social and natural sciences as well as the humanities. 
+### About SOC 4650/5650: Introduction to Geographic Information Science
+This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc). Techniques introduced include data cleaning and management, map production and cartography, and the manipulation of both tabular and spatial data. The impacts of GISc on public policy, and the effects of public policy on GISc, are also discussed. The course incorporates a wide variety of social, economic, health, urban, meteorological, and environmental data. These data are mapped at a variety of extents, from the City of St. Louis to the St. Louis Metropolitan region, Missouri, all United States counties, and all U.S. states.
 
 ### About Christopher Prener, PhD
 Christopher Prener (Ph.D., Northeastern University, 2015) is an urban and medical sociologist with an interest in mixed methods research designs that incorporate spatial data. His dissertation examined the effect of neighborhood context and conditions on emergency medical services work, particularly with patients who have mental illnesses or substance use disorders. He is also part of a research team examining the effect of literacy on mental health service use and recovery. He is currently a faculty member in the Department of Sociology and Anthropology at Saint Louis University. More details are available at [his website](http://www.chrisprener.net) and he can be contacted at [prenercg@slu.edu](mailto:prenercg@slu.edu).
