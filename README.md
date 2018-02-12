@@ -7,6 +7,7 @@ lecture-04 <img src="https://slu-soc5650.github.io/images/logo.png" align="right
 [![](https://img.shields.io/github/repo-size/slu-soc5650/lecture-04.svg)](https://github.com/slu-soc5650/lecture-04)
 
 This repository contains files for:
+-   `ArcGIS/` - ArcMap and ArcCatalog handouts
 -   `Functions/` - `R` functions for lecture
 -   `Lab-03/` - lab instructions
 -   `LP-04/` - lecture prep 04
