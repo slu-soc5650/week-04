@@ -1,3 +1,10 @@
+# lecture-04 v18.2.0
+
+* Add functions and ArcGIS reference documents
+* Add Lab-03
+* Add lecture slides
+* Update README, NEWS, and NEWS_SITE to reflect additions to the repo and corresponding webpage.
+
 # lecture-04 v18.1.0
 
 * Add `NEWS.md`
