@@ -1,3 +1,8 @@
+# lecture-04 v18.2.1
+
+* Add lecture slides
+* Update lab and functions sheets
+
 # lecture-04 v18.2.0
 
 * Add functions and ArcGIS reference documents
