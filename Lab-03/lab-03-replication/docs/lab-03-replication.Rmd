@@ -1,0 +1,47 @@
+---
+title: "Lab 03 Notebook"
+author: "Christopher Prener, Ph.D."
+date: '(`r format(Sys.time(), "%B %d, %Y")`)'
+output: 
+  github_document: default
+  html_notebook: default 
+---
+
+## Introduction
+This is the replication notebook for Lab-03 from the course SOC 4650/5650: Introduction to GISc. This file *does not* include the project set-up chunk. Instead, it uses `here` when data are loaded and/or saved.
+
+## Load Dependencies
+The following code loads the package dependencies for our analysis:
+
+```{r package-load}
+# tidyverse
+library(ggplot2) # data plotting
+
+# other packages
+library(here) # working directory tools
+library(sf) # spatial data tools
+```
+
+## Load Data
+The following code loads the data package and assigns our data to a data frame in our global environment:
+
+```{r data-load}
+moBoundary <- st_read(here("data","MO_BOUNDARY_State.shp"), stringsAsFactors = FALSE)
+```
+
+## Part 1
+### Question 8
+The following code creates a basic plot of Missouri:
+
+```{r missouri-plot}
+ggplot() +
+  geom_sf(data = moBoundary, fill = "#5d5d5d", color = "#5d5d5d")
+```
+
+This code block saves the map to the `results` subfolder:
+
+```{r save-missouri-plot}
+ggsave(here("results","missouriMap.png"), dpi = 300)
+```
+
+We now have a very simple map of Missouri saved in our project.
