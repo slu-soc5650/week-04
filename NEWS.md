@@ -1,3 +1,12 @@
+# lecture-04 v18.4.0
+
+* add Lab-03 detailed ArcGIS replication
+
+# lecture-04 v18.3.0
+
+* add PS-02 handout
+* add Lab-03 replication file
+
 # lecture-04 v18.2.1
 
 * Add lecture slides
